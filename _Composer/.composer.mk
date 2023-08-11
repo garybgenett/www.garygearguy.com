@@ -3,10 +3,10 @@
 ################################################################################
 
 override _EXPORT_GIT_REPO		:= ssh://git@github.com/garybgenett/www.garygearguy.com.git
-override _EXPORT_GIT_BRANCH		:= gh-pages
+override _EXPORT_GIT_BNCH		:= gh-pages
 
-override _EXPORT_FIRE_ACCOUNT		:= contact.garygearguy@gmail.com
-override _EXPORT_FIRE_PROJECT		:= garygearguy-site
+override _EXPORT_FIRE_ACCT		:= contact.garygearguy@gmail.com
+override _EXPORT_FIRE_PROJ		:= garygearguy-site
 
 ################################################################################
 
