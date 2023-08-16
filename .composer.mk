@@ -5,7 +5,7 @@ ifneq ($(COMPOSER_CURDIR),)
 ################################################################################
 
 override COMPOSER_IGNORES		:= 404.md index.md _photos pictures
-override COMPOSER_IGNORES		+= _posted.txt _branding _template* _profile*
+override COMPOSER_IGNORES		+= _posted.txt _branding _documents _template*
 
 ################################################################################
 
