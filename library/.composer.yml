@@ -43,7 +43,7 @@ variables:
       - 0
     metainfo: '<date> :: <title>'
     metainfo_null: '*(none)*'
-    tagslist:
+    metalist:
       author:
         title: Author
         display: '*Authors: <|>, <|>*'
@@ -87,7 +87,7 @@ variables:
     PATH:
       - Sitemap: <composer_root>/library/sitemap.html
     INFO:
-      - tagslist tags
+      - metalist tags
   site-nav-left:
     MENU: null
     SPACE: null

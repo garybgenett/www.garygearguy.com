@@ -37,7 +37,7 @@ variables:
     cols_resize:			[ 0, 12, 0 ]
 
     metainfo:				"<date> :: <title>"
-    tagslist:
+    metalist:
       tags:
         title:				"Topic"
         display:			"*Topics: <|>, <|>*"
@@ -83,7 +83,7 @@ variables:
     PATH:
       - Sitemap:			<composer_root>/library/sitemap.html
     INFO:
-      - tagslist tags
+      - metalist tags
 
 ########################################
   site-nav-left:
