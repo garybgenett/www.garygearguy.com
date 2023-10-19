@@ -58,19 +58,17 @@ variables:
     digest_title: Latest Updates
     digest_continue: '[...]'
     digest_permalink: '*(permalink to full text)*'
-    digest_header: null
-    digest_footer: 1
+    digest_include: <composer_root>/_footer.md.cms
     digest_chars: 1024
     digest_count: 20
     digest_expanded: 0
     digest_spacer: 1
+    lists_include: <composer_root>/_footer.md.cms
+    lists_expanded: null
+    lists_spacer: null
     sitemap_title: Site Map
     sitemap_expanded: 0
     sitemap_spacer: null
-    lists_header: null
-    lists_footer: 1
-    lists_expanded: null
-    lists_spacer: null
   site-nav-top:
     MENU:
       - Projects: <composer_root>/library/tags-projects.html
