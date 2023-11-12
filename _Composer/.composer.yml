@@ -48,12 +48,12 @@ variables:
     folder:				library
     auto_update:			null #>>> 1
 
-    digest_include:			<composer_root>/_footer.md.cms
+    digest_append:			<composer_root>/_footer.md.cms
     digest_count:			20
 
     sitemap_spacer:			null
 
-    lists_include:			<composer_root>/_footer.md.cms
+    lists_append:			<composer_root>/_footer.md.cms
     lists_expanded:			null
     lists_spacer:			null
 
