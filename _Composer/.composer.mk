@@ -30,11 +30,6 @@ override c_icon				:= $(COMPOSER_ROOT)/_branding/logo.png
 
 ################################################################################
 
-%.html: $(COMPOSER_ROOT)/_header.md.cms
-#>%.html: $(COMPOSER_ROOT)/_header-pages.md.cms
-#>%.html: $(COMPOSER_ROOT)/_footer-pages.md.cms
-%.html: $(COMPOSER_ROOT)/_footer.md.cms
-
 %.html: $(COMPOSER_ROOT)/_photos.yml
 
 ################################################################################

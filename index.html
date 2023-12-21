@@ -12601,6 +12601,30 @@ color:	var(--solarized-magenta);
 }
 </style>
   <style type="text/css">
+
+
+.composer-form {
+background-color:	rgba(var(--bs-dark-rgb));
+color:	rgba(var(--bs-secondary-rgb));
+border:	1px solid rgba(var(--bs-secondary-rgb));
+}
+.navbar,
+.dropdown-menu,
+.accordion-button,
+.card-header {
+background-color:	rgba(var(--bs-dark-rgb));
+}
+.accordion-button:not(.collapsed) {
+background-color:	rgba(var(--bs-dark-rgb));
+color:	rgba(var(--bs-secondary-rgb));
+}
+.accordion-item,
+.card {
+border:	1px solid rgba(var(--bs-secondary-rgb));
+}
+
+</style>
+  <style type="text/css">
 :root {
 --bs-scroll-height:	60vh;
 --bs-breadcrumb-divider:	"/";
@@ -12820,30 +12844,6 @@ h5	{ font-size: 1.1rem; }
 h6	{ font-size: 1rem; }
 ul {
 margin-top:	0px;
-}
-
-</style>
-  <style type="text/css">
-
-
-.composer-form {
-background-color:	rgba(var(--bs-dark-rgb));
-color:	rgba(var(--bs-secondary-rgb));
-border:	1px solid rgba(var(--bs-secondary-rgb));
-}
-.navbar,
-.dropdown-menu,
-.accordion-button,
-.card-header {
-background-color:	rgba(var(--bs-dark-rgb));
-}
-.accordion-button:not(.collapsed) {
-background-color:	rgba(var(--bs-dark-rgb));
-color:	rgba(var(--bs-secondary-rgb));
-}
-.accordion-item,
-.card {
-border:	1px solid rgba(var(--bs-secondary-rgb));
 }
 
 </style>
@@ -19664,7 +19664,7 @@ border:	1px solid rgba(var(--bs-secondary-rgb));
   </script>
 </head>
 <body>
-<!-- site-targets >> .../.composer.tmp/site-cache-file.index.html.nav-top.html -->
+<!-- site-targets >> .../.composer.tmp/site-cache.index.html.nav-top.html -->
 <!-- site-nav-top :: start >> .../_branding/logo.png -->
 <!-- site-nav-begin :: start >> top .../_branding/logo.png -->
 <div class="composer-toggler collapsed" data-bs-toggle="collapse" data-bs-target="#navbar-fixed-top">
@@ -19822,15 +19822,15 @@ Operationalize life. Modular and mobile living. Tools to survive and thrive.
 </nav>
 <!-- site-nav-end :: finish >> top -->
 <!-- site-nav-top :: finish >> .../_branding/logo.png -->
-<!-- site-targets >> .../.composer.tmp/site-cache-file.index.html.row-begin.html -->
+<!-- site-targets >> .../.composer.tmp/site-cache.index.html.row-begin.html -->
 <!-- site-row-begin :: start >> -->
 <div class="container-fluid user-select-none">
 <div class="d-flex flex-row flex-wrap">
 <!-- site-row-begin :: finish >> -->
-<!-- site-targets >> .../.composer.tmp/site-cache-file.index.html.nav-left.html -->
+<!-- site-targets >> .../.composer.tmp/site-cache.index.html.nav-left.html -->
 <!-- site-nav-side :: start >> left -->
 <!-- site-column-begin :: start >> left -->
-<div class="d-flex flex-column order-md-1 order-1 col-md-4 col-0 d-md-block d-none composer-sticky p-2">
+<div class="d-flex flex-column composer-sticky d-md-sticky d-static order-md-1 order-1 col-md-4 col-0 d-md-block d-none p-2">
 <!-- site-column-begin :: finish >> left -->
 <!-- site-nav-side-list :: start >> nav-left.["MENU"] -->
 <!-- site-nav-side-list :: finish >> nav-left.["MENU"] -->
@@ -19872,9 +19872,9 @@ Contents
 </div>
 <!-- site-column-end :: finish >> -->
 <!-- site-nav-side :: finish >> left -->
-<!-- site-targets >> .../.composer.tmp/site-cache-file.index.html.column-begin.html -->
+<!-- site-targets >> .../.composer.tmp/site-cache.index.html.column-begin.html -->
 <!-- site-column-begin :: start >> center -->
-<div class="d-flex flex-column order-md-2 order-3 col-md-8 col-12 d-md-block d-block composer-sticky p-2">
+<div class="d-flex flex-column composer-sticky d-md-sticky d-static order-md-2 order-3 col-md-8 col-12 d-md-block d-block p-2">
 <!-- site-column-begin :: finish >> center -->
 <!-- site-targets >> .../_header.md.cms -->
 <!-- site-file :: start >> .../_header.md.cms -->
@@ -19947,6 +19947,9 @@ Contents
 </section>
 <section id="ugh" class="level2">
 <h2>Ugh.</h2>
+<!-- site-break :: start >> -->
+<!-- site-break :: finish >> -->
+<p>[…]</p>
 <p><a href="./projects/office_space.html"><em>(permalink to full text)</em></a></p>
 <!-- site-fold-end :: start >> -->
 </section>
@@ -19993,6 +19996,9 @@ Contents
 </section>
 <section id="enjoying-life" class="level2">
 <h2>Enjoying Life</h2>
+<!-- site-break :: start >> -->
+<!-- site-break :: finish >> -->
+<p>[…]</p>
 <p><a href="./projects/van_living.html"><em>(permalink to full text)</em></a></p>
 <!-- site-fold-end :: start >> -->
 </section>
@@ -20091,6 +20097,9 @@ Contents
 <section id="power-grid" class="level1">
 <h1>Power Grid</h1>
 <p>This is the configuration of my electrical power brick and “cold stuff”.</p>
+<!-- site-break :: start >> -->
+<!-- site-break :: finish >> -->
+<p>[…]</p>
 <p><a href="./projects/power_grid.html"><em>(permalink to full text)</em></a></p>
 <!-- site-fold-end :: start >> -->
 </section>
@@ -20124,6 +20133,9 @@ Contents
 <section id="recording-equipment" class="level1">
 <h1>Recording Equipment</h1>
 <p>This is the camera equipment and configurations I use to record all my videos.</p>
+<!-- site-break :: start >> -->
+<!-- site-break :: finish >> -->
+<p>[…]</p>
 <p><a href="./projects/recording_equipment.html"><em>(permalink to full text)</em></a></p>
 <!-- site-fold-end :: start >> -->
 </section>
@@ -20208,6 +20220,9 @@ Contents
 <section id="storage-locker" class="level1">
 <h1>Storage Locker</h1>
 <p>This is a placeholder…</p>
+<!-- site-break :: start >> -->
+<!-- site-break :: finish >> -->
+<p>[…]</p>
 <p><a href="./projects/storage_locker.html"><em>(permalink to full text)</em></a></p>
 <!-- site-fold-end :: start >> -->
 </section>
@@ -20230,14 +20245,14 @@ Contents
 <hr />
 <p><em>Other than the logo, none of the content on this site or on my linked websites was generated by (AI) artificial intelligence. I do my own work and express my own thoughts.</em></p>
 <!-- site-file :: finish >> .../_footer.md.cms -->
-<!-- site-targets >> .../.composer.tmp/site-cache-file.index.html.column-end.html -->
+<!-- site-targets >> .../.composer.tmp/site-cache.index.html.column-end.html -->
 <!-- site-column-end :: start >> -->
 </div>
 <!-- site-column-end :: finish >> -->
-<!-- site-targets >> .../.composer.tmp/site-cache-file.index.html.nav-right.html -->
+<!-- site-targets >> .../.composer.tmp/site-cache.index.html.nav-right.html -->
 <!-- site-nav-side :: start >> right -->
 <!-- site-column-begin :: start >> right -->
-<div class="d-flex flex-column order-md-3 order-2 col-md-0 col-0 d-md-none d-none composer-sticky p-2">
+<div class="d-flex flex-column composer-sticky d-md-sticky d-static order-md-3 order-2 col-md-0 col-0 d-md-none d-none p-2">
 <!-- site-column-begin :: finish >> right -->
 <!-- site-nav-side-list :: start >> nav-right.["MENU"] -->
 <!-- site-nav-side-list :: finish >> nav-right.["MENU"] -->
@@ -20320,12 +20335,12 @@ Topics
 </div>
 <!-- site-column-end :: finish >> -->
 <!-- site-nav-side :: finish >> right -->
-<!-- site-targets >> .../.composer.tmp/site-cache-file.index.html.row-end.html -->
+<!-- site-targets >> .../.composer.tmp/site-cache.index.html.row-end.html -->
 <!-- site-row-end :: start >> -->
 </div>
 </div>
 <!-- site-row-end :: finish >> -->
-<!-- site-targets >> .../.composer.tmp/site-cache-file.index.html.nav-bottom.html -->
+<!-- site-targets >> .../.composer.tmp/site-cache.index.html.nav-bottom.html -->
 <!-- site-nav-bottom :: start >> -->
 <!-- site-nav-begin :: start >> bottom -->
 <div class="composer-toggler collapsed" data-bs-toggle="collapse" data-bs-target="#navbar-fixed-bottom">
@@ -20343,7 +20358,7 @@ Topics
 <!-- site-icon :: finish >> copyright --> Copyright (c) 2023, Gary Gear Guy LLC
 </p>
 <!-- site-copyright :: finish >> -->
-<div id="navbar-fixed-bottom" class="navbar-collapse collapse">
+<div class="navbar-collapse collapse" id="navbar-fixed-bottom">
 <!-- site-nav-begin :: finish >> bottom -->
 <ol class="composer-link nav-item breadcrumb me-auto">
 <li class="breadcrumb-item">
@@ -20368,7 +20383,9 @@ Topics
 <!-- site-nav-end :: start >> bottom -->
 <!-- site-info-data :: start >> bottom -->
 <!-- site-nav-divider :: start >> bottom-info -->
-<!-- site-nav-divider :: skip >> nav-divider-bottom-info -->
+<p class="navbar-text d-md-none d-block">
+<hr class="dropdown-divider">
+</p>
 <!-- site-nav-divider :: finish >> bottom-info -->
 <!-- site-info-data-list :: start >> info-bottom.["TEXT"] -->
 <!-- site-info-data-list :: finish >> info-bottom.["TEXT"] -->
@@ -20376,7 +20393,7 @@ Topics
 <!-- site-info-data-list :: start >> info-bottom.["INFO"][0] -->
 <p class="composer-link navbar-text me-3">
 <!-- composer >> readtime-list -->
-<em>Reading time: 727 words, 3 minutes</em>
+<em>Reading time: 732 words, 3 minutes</em>
 </p>
 <!-- site-info-data-list :: finish >> info-bottom.["INFO"][0] -->
 <!-- site-info-data-list :: finish >> info-bottom.["INFO"] -->
