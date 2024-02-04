@@ -35,8 +35,8 @@ override c_icon				:= $(COMPOSER_ROOT)/_branding/logo.png
 ifeq ($(COMPOSER_CURDIR),)
 ################################################################################
 
-.PHONY: $(notdir $(COMPOSER_ROOT))-$(EXPORTS)
-$(notdir $(COMPOSER_ROOT))-$(EXPORTS):
+.PHONY: $(notdir $(COMPOSER_ROOT))-export
+$(notdir $(COMPOSER_ROOT))-export:
 	@$(TOUCH) $(COMPOSER_ROOT)/.nojekyll
 	@(cd $(COMPOSER_ROOT) && $(HOME)/.bashrc git-perms root)
 
