@@ -8,48 +8,55 @@ variables:
 ########################################
   site-config:
 
-    brand:				null
-    homepage:				http://www.garygearguy.com
-    search:
-      name: |
-        <!-- composer >> icon search -->
-      site:				https://duckduckgo.com
-      call:				q
-      form: |
-        <!-- composer >> form sites garygearguy.com -->
-        <!-- composer >> form ia web -->
-        <!-- composer >> form kae d -->
-        <!-- composer >> form ko 1 -->
-        <!-- composer >> form kp -1 -->
-        <!-- composer >> form kv 1 -->
-        <!-- composer >> form kz -1 -->
-    copyright: |
-      <!-- composer >> icon copyright -->
-      Copyright (c) 2023, Gary Gear Guy LLC
+    navbars:
+      brand:				null
+      homepage:				http://www.garygearguy.com
+      search:
+        name: |
+          <!-- composer >> icon search -->
+        site:				https://duckduckgo.com
+        call:				q
+        form: |
+          <!-- composer >> form sites garygearguy.com -->
+          <!-- composer >> form ia web -->
+          <!-- composer >> form kae d -->
+          <!-- composer >> form ko 1 -->
+          <!-- composer >> form kp -1 -->
+          <!-- composer >> form kv 1 -->
+          <!-- composer >> form kz -1 -->
+      copyright: |
+        <!-- composer >> icon copyright -->
+        Copyright (c) 2023, Gary Gear Guy LLC
 
-    header:				<composer_root>/_header.md.cms
-    footer:				<composer_root>/_footer.md.cms
-
-    copy_protect:			1
+    pages:
+      copy_protect:			1
+      header:				[ <composer_root>/_header.md.cms ]
+      footer:				[ <composer_root>/_footer.md.cms ]
 
     cols:
       size:				[ 4, 8, 0 ]
       resize:				[ 0, 12, 0 ]
 
+########################################
+  site-helpers:
+
     metainfo:
       display:				"<date> :: <title>"
     metalist:
       tags:
-        title:				"Topic"
-        display:			"*Topics: <|>, <|>*"
+        title:				"Topic: <name>"
+        display:			"Topics: <|>, <|>"
+        empty:				"*(no topics)*"
 
 ########################################
   site-library:
 
-    folder:				library
-    auto_update:			null #>>> 1
+    folder:
+      name:				library
+      auto_update:			null #>>> 1
 
-    append:				<composer_root>/_footer.md.cms
+    pages:
+      append:				[ <composer_root>/_footer.md.cms ]
 
     digest:
       count:				20
